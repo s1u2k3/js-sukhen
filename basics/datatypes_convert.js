@@ -43,5 +43,31 @@ console.log(st)
 
 console.log(typeof(st))
 
+let val = 3
+
+val = -val
+
+console.log(val);
+
+
+
+let str1 = "sukhendu"
+let str2 = "Bera"
+
+let str3 = str1 + str2
+
+console.log(str3)
+
+console.log("1"+2)
+console.log(1+"2")
+console.log("1"+2+2)
+console.log(1+2+"2")
+
+
+let gameCounter = 100
+
+gameCounter++
+
+console.log(gameCounter)
 
 
