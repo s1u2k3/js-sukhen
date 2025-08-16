@@ -39,3 +39,8 @@ console.log(typeof(myFunction));
 
 
 // javascript is a dynamic language because in javasript don't require to declare data types
+
+
+// data store in memory in stack or heap
+
+// stack(primitive), heap(non-primitive)
