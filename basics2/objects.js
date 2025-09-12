@@ -92,10 +92,28 @@ const userdata = [
 
 //console.log(userdata[1].id);
 
-console.log(Object.keys(jsUser));
-console.log(Object.values(jsUser));
-console.log(Object.entries(jsUser));
+// console.log(Object.keys(jsUser));
+// console.log(Object.values(jsUser));
+// console.log(Object.entries(jsUser));
 
 
 
-console.log(jsUser.hasOwnProperty('name'));
+// console.log(jsUser.hasOwnProperty('name'));
+
+
+
+// destructure
+
+const course = {
+    cName : "javascript",
+    price : "999",
+    cInstructor : "sukhen"
+}
+
+// course.cInstructor
+
+const { cInstructor : ins } = course
+//console.log(cInstructor);
+console.log(ins);
+
+
